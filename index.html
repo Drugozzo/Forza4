@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="style/headers.css" rel="stylesheet" type="text/css">
+	<link href="style/style.css" rel="stylesheet" type="text/css">
+	<link href="style/lists.css" rel="stylesheet" type="text/css">
+	<link href="style/layout.css" rel="stylesheet" type="text/css">
+	<link href="style/util.css" rel="stylesheet" type="text/css">
+	<link href="style/buttons.css" rel="stylesheet" type="text/css">
+	<link href="style/header.css" rel="stylesheet" type="text/css">
+	<link href="style/scrolling.css" rel="stylesheet" type="text/css">
+	<link href="style/animations.css" rel="stylesheet" type="text/css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<script src="js/jquery.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/game.js"></script>
+	<script src="js/controlli.js"></script>
+
+</head>
+<body>
+	<section role="region" data-position="current">
+		<header class="fixed">
+			<h1> Forza 4 </h1>
+		</header>
+		<article class="content scrollable header">
+			<div>
+				<button class="recommend" id="start">Start</button>
+				<button class="recommend" id="option">Option</button>
+				<button class="recommend" id="info">Info</button>
+			</div>
+		</article>
+	</section>
+	<section role="region" data-position="right">
+		<header class="fixed">
+			<a herf="#"><span class="icon icon-back">back</span></a>
+			<menu type="toolbar">
+	  			<button disabled></button>
+	  		</menu>
+	  		<h1 id="title"></h1>
+		</header>
+		<article id="art" class="content scrollable header">
+			<div id="opt">
+			</div>
+		</article>
+	</section>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Fox Sketch",
+  "version": "2.1",
+  "description": "Simple sketch app for Desktop. ",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/icon/512-icon.png",
+    "128": "/icon/128-icon.png",
+    "60": "/icon/60-icon.png"
+  },
+  "developer": {
+    "name": "Lorenzo Colombo"
+  },
+  "fullscreen": "true"
+}

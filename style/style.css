@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+}
+
+section[data-position="current"]{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform: translateX(0%);
+}
+
+
+section[data-position="right"]{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform: translateX(100%);
+}
+
+section[data-position="bottom"]{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform: translateY(100%);
+}
+
