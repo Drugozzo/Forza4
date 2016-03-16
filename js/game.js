@@ -188,11 +188,11 @@ function game(img,imgR,imgG){
 			disegnaDisco();
 			/*if(turno==ia){
 				console.log("ia");
-				IA();*/
+				IA();
 			}else{
 				disco = creaDisco(disco.posizioneX);
 				disegnaDisco();
-			}
+			}*/
 		}else{
 			$("#endgame").css("display","block");
 			if(vincitore == 0)
